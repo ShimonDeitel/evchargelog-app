@@ -1,0 +1,40 @@
+{
+  "identifier" : "EV Charging Log",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "evchargelog_pro_group",
+      "localizations" : [],
+      "name" : "Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "com.shimondeitel.evchargelog.pro.monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock Battery degradation trend charts and charging cost analytics",
+              "displayName" : "EV Charging Log Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.evchargelog.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "EV Charging Log Pro Monthly",
+          "subscriptionGroupID" : "evchargelog_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
